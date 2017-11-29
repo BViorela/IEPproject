@@ -2,5 +2,5 @@
 
 Serial::Serial()
 {
-
+    virtual void AbstractMemberFunction() = 0;
 }
