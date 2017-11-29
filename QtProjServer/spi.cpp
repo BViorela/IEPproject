@@ -1,5 +1,5 @@
 #include "spi.h"
-
+#include "bcm2835.h"
 Spi::Spi( uint8_t BIT_ORDER, uint16_t SPI_MODE0, uint8_t CLOCK_DIVIDER, uint8_t SPI_CS0, uint8_t LOW )
 {
 
